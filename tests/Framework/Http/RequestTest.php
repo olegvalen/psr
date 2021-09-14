@@ -2,7 +2,7 @@
 
 namespace Test\Framework\Http;
 
-use Framework\Http\Request;
+use Zend\Diactoros\ServerRequest as Request;
 use PHPUnit\Framework\TestCase;
 
 class RequestTest extends TestCase
